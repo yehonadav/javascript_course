@@ -102,3 +102,4 @@ dist
 
 # TernJS port file
 .tern-port
+/examples/simple_express_server/yarn.lock
