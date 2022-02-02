@@ -1,1 +1,26 @@
+{
+  "name": "node-server-with-typescript",
+  "version": "1.0.0",
+  "description": "A Web & API server built using TypeScript",
+  "main": "dist",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "@types/node": "^12.12.17",
+    "awesome-typescript-loader": "^5.2.0",
+    "typescript": "^3.0.1",
+    "typescript-eslint-parser": "^18.0.0",
+    "tslint": "^5.11.0"
+  },
+  "scripts": {
+    "build": "tsc --project './tsconfig.json'",
+    "dev": "tsc --project './tsconfig.json' --watch & NODE_ENV=development nodemon dist",
+    "test": "tsc --project './tsconfig.json' && ./node_modules/.bin/mocha dist/**/*.spec.js",
+    "lint": "./node_modules/.bin/tslint -c tslint.json 'src/**/**.ts'"
+  },
+  "author": "Yehonadav Bar Ilan",
+  "license": "MIT"
+}
 
