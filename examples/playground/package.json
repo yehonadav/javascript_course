@@ -12,6 +12,7 @@
   "author": "Yehonadav Bar Ilan",
   "license": "MIT",
   "dependencies": {
+    "aws-sdk": "^2.1069.0",
     "express": "^4.16.3",
     "swagger-jsdoc": "^6.1.0",
     "swagger-ui-express": "^4.3.0"

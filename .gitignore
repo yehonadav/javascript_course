@@ -103,3 +103,5 @@ dist
 # TernJS port file
 .tern-port
 /examples/simple_express_server/yarn.lock
+/examples/playground/config.json
+/examples/playground/moviedata.json
